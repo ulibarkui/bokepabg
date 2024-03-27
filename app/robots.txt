@@ -1,8 +1,8 @@
 # Block all crawlers for /accounts
 User-agent: *
 Disallow:
-/lib
+
 # Allow all crawlers
 User-agent: *
 Allow: /
-Sitemap: https://bokep-abg.pages.dev/sitemap.xml
+Sitemap: https://bokepchindo.pages.dev/sitemap.xml
