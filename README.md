@@ -1,4 +1,4 @@
-# doodstream-web 🎥
+# bokepabg 🎥
 
 An SSR video streaming frontend which uses doodstream.com as a backend. It is built using [Next.js](https://nextjs.org/) and [Tailwind CSS](https://tailwindcss.com/).
 
@@ -16,7 +16,7 @@ An SSR video streaming frontend which uses doodstream.com as a backend. It is bu
 
 ## Live Demo
 
-A live demo of the project is available at [https://bokeptube.pages.dev](https://bokeptube.pages.dev/).
+A live demo of the project is available at [https://bokepabg.pages.dev](https://bokepabg.pages.dev/).
 
 ## Configuration
 
@@ -24,15 +24,15 @@ The following environment variables are required to run the project:
 
 -   `DOODSTREAM_API_KEY`: API key for doodstream.com
 -   `DOODSTREAM_API_URL`: API URL for doodstream.com (default: `https://doodapi.com`)
--   `SITENAME`: Name of the website (default: `bokeptube`)
+-   `SITENAME`: Name of the website (default: `bokepabg`)
 
 ## Development
 
 1. Clone the repository
 
 ```bash
-git clone <repo-url> doodstream-web
-cd doodstream-web
+git clone <repo-url> bokepabg
+cd bokepabg
 ```
 
 2. Install dependencies
@@ -54,8 +54,8 @@ npm run dev
 1. Clone the repository
 
 ```bash
-git clone <repo-url> doodstream-web
-cd doodstream-web
+git clone <repo-url> bokepabg
+cd bokepabg
 ```
 
 2. Install dependencies
