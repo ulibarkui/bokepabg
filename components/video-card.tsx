@@ -14,6 +14,7 @@ const VideoCard = ({ video }: any) => {
             <div className="relative">
                 <Link
                     href={`/v/${video.file_code}`}
+                    title={`Watch ${video.title}`}
                     >
                 <Thumbnail
                     single_img={video.single_img}
@@ -25,14 +26,14 @@ const VideoCard = ({ video }: any) => {
                     {humanDuration(video.length)}
                 </Badge>
             </div>
-            <CardContent className="p-1.5">
+            <CardContent className="p-1.5"><h3>
                 <Link
                     href={`/v/${video.file_code}`}
                     className="line-clamp-2 text-sm md:text-md font-semibold hover:text-primary focus:text-primary"
-                    aria-label={`Watch ${video.title}`}
+                    title={`Watch ${video.title}`}
                 >
                     {video.title}
-                </Link>
+                </Link></h3>
                 <div className="flex flex-row justify-between text-[0.6rem] md:text-xs my-1 uppercase text-gray-500">
                     <span>{video.views} views</span>
                     <div className="inline-flex">
